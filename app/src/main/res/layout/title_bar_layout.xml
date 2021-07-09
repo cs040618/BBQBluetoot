@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:paddingLeft="11dip"
+    android:paddingRight="11dip"
+    android:background="@drawable/title_bg" >
+
+    <ImageView
+        android:id="@+id/title_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingEnd="20dip"
+        android:src="@drawable/back"
+        android:contentDescription="back image" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_name_bg"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/item_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:textColor="@color/title_bar_text"
+            android:layout_marginStart="@dimen/change_all_probes_text_l"
+            android:layout_marginEnd="@dimen/change_all_probes_text_r"
+            />
+    </RelativeLayout>
+
+
+	<ImageView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ble_status"
+        android:contentDescription="ble_status" />
+</RelativeLayout>

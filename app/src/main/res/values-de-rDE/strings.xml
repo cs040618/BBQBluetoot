@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Temp Tracking</string>
+    <string name="setting">Einstellungen</string>
+    <string name="recipe">Gerichte</string>
+    <string name="all_probes">Übersicht Fühler</string>
+    <string name="connect">Verbindung</string>
+    <string name="temperature">Temperatur</string>
+    <string name="unit">Einheit</string>
+    <string name="alarm_type">Alarm Typ</string>
+    <string name="language">Sprache</string>
+    <string name="select">Auswahl</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="cels_unit">℃</string>
+    <string name="disconnect_msg">Trennen von %1$s?</string>
+    <string name="barbecue_type">%1$s %2$s</string>
+    <string name="barbecue_target_temperature">Ziel %1$s%2$s</string>
+    <string name="barbecue_temperature">Grill %1$s%2$s</string>
+    <string name="barbecue">Grill</string>
+    <string name="alarm_msg">Garvorgang abgeschlossen!</string>
+    <string name="dialog_title">Fühler %1$s</string>
+    <string name="high_alarm_msg">Gartemperatur von 85℃ überschritten\nEntfernen Sie das Grillgut aus der Hitze!</string>
+    <string name="grill_high_alarm_msg">Ofen Temperatur von 275℃ überschritten\nHitzequelle ausschalten oder reduzieren!</string>
+    <string name="disconnect_alarm_msg">Bluetoothverbindung verloren\nBringen Sie das Telefon näher zum Fühler!</string>
+    <string name="single_barbecue_type">%1$s\n %2$s</string>
+    <string name="single_barbecue_target_temperature">Ziel\n%1$s%2$s</string>
+    <string name="single_barbecue_temperature">Grill\n%1$s%2$s</string>
+    <string name="timer">Timer</string>
+    <string name="left_time">Restzeit</string>
+    <string name="current_temperature">Kerntemperatur</string>
+    <string name="cook_degree">Kerntemperatur</string>
+    <string name="min_centigrade_temperature">-40℃</string>
+    <string name="max_centigrade_temperature">200℃</string>
+    <string name="min_fahrenhite_temperature">-40℉</string>
+    <string name="max_fahrenhite_temperature">392℉</string>
+    <string name="hour">Stunden</string>
+    <string name="back">Zurück</string>
+    <string name="Rare">Rare</string>
+    <string name="Medium_Rare">Medium Rare</string>
+    <string name="Medium">Medium</string>
+    <string name="Medium_Done">Medium Done</string>
+    <string name="Well_Done">Well Done</string>
+    <string name="cooking">Grillvorgang</string>
+
+
+    <string name="ring">Ton</string>
+    <string name="vibration">Vibration</string>
+    <string name="ring_vibration">Ton &amp; Vibration</string>
+    <string name="beef">Rind</string>
+    <string name="veal">Kalb</string>
+    <string name="lamb">Lamm</string>
+    <string name="venison">Wild</string>
+    <string name="pork">Schwein</string>
+    <string name="chicken">Huhn</string>
+    <string name="duck">Ente</string>
+    <string name="fish">Fisch</string>
+    <string name="hamburger">Hamburger</string>
+
+
+    <string name="no_short">N</string>
+    <string name="yes_short">OK</string>
+
+
+    <string name="english">English</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="chinese">簡體中文</string>
+    <string name="chinese_tw">繁體中文</string>
+    <string name="web">Webabfrage</string>
+    <string name="pid">Nummerierung</string>
+    <string name="test_id">12345</string>
+    <string name="http_error">Internetverbindungsfehler</string>
+
+
+</resources>

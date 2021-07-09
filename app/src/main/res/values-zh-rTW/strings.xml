@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temp Tracking</string>
+    <string name="setting">設置</string>
+    <string name="recipe">食譜</string>
+    <string name="all_probes">全部探針</string>
+    <string name="connect">連接</string>
+    <string name="temperature">溫度</string>
+    <string name="unit">單位</string>
+    <string name="alarm_type">警報方式</string>
+    <string name="language">語言</string>
+    <string name="select">選擇</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="cels_unit">℃</string>
+    <string name="disconnect_msg">是否斷開 %1$s?</string>
+    <string name="barbecue_type">%1$s %2$s</string>
+    <string name="barbecue_target_temperature">目標溫度 %1$s%2$s</string>
+    <string name="barbecue_temperature">環境溫度    %1$s%2$s</string>
+    <string name="barbecue">環境溫度</string>
+    <string name="alarm_msg">已完成!</string>
+    <string name="dialog_title">探針 %1$s</string>
+    <string name="high_alarm_msg">食物溫度高於85℃\n請拿走食物!</string>
+    <string name="disconnect_alarm_msg">藍芽連線中斷\n請將手機靠近探針!</string>
+    <string name="grill_high_alarm_msg">爐溫高於275℃\n請關閉熱源!</string>
+    <string name="single_barbecue_type">%1$s\n%2$s</string>
+    <string name="single_barbecue_target_temperature">目標溫度\n%1$s%2$s</string>
+    <string name="single_barbecue_temperature">環境溫度\n%1$s%2$s</string>
+    <string name="timer">計時</string>
+    <string name="left_time">剩餘時間</string>
+    <string name="current_temperature">當前溫度</string>
+    <string name="cook_degree">生熟程度</string>
+    <string name="min_centigrade_temperature">-40℃</string>
+    <string name="max_centigrade_temperature">200℃</string>
+    <string name="min_fahrenhite_temperature">-40℉</string>
+    <string name="max_fahrenhite_temperature">392℉</string>
+    <string name="hour">小時</string>
+    <string name="back">返回</string>
+    <string name="Rare">三分熟</string>
+    <string name="Medium_Rare">五分熟</string>
+    <string name="Medium">七分熟</string>
+    <string name="Medium_Done">八分熟</string>
+    <string name="Well_Done">全熟</string>
+    <string name="cooking">作業中</string>
+
+
+    <string name="ring">鈴聲</string>
+    <string name="vibration">震動</string>
+    <string name="ring_vibration">鈴聲 &amp; 震動</string>
+    <string name="beef">牛肉</string>
+    <string name="veal">小牛肉</string>
+    <string name="lamb">羊肉</string>
+    <string name="venison">鹿肉</string>
+    <string name="pork">豬肉</string>
+    <string name="chicken">雞肉</string>
+    <string name="duck">鴨肉</string>
+    <string name="fish">魚肉</string>
+    <string name="hamburger">漢堡</string>
+
+
+    <string name="no_short">否</string>
+    <string name="yes_short">是</string>
+
+
+    <string name="english">English</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="chinese">簡體中文</string>
+    <string name="chinese_tw">繁體中文</string>
+    <string name="web">網頁查詢</string>
+    <string name="pid">編號</string>
+    <string name="test_id">12345</string>
+    <string name="http_error">網路連接錯誤</string>
+
+
+</resources>

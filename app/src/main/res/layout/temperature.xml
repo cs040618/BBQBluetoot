@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/recipe_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/camera_detail_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        layout="@layout/title_bar_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dip"
+            android:src="@drawable/setting"
+            android:contentDescription="setting icon" />
+    </RelativeLayout>
+
+    <fmgtech.grillprobee.barbecue.TemperaturePanelView
+        android:id="@+id/panView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/temperature_style"
+        android:gravity="center"
+        android:textColor="@color/WHITE" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/start_btn"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_action_word_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

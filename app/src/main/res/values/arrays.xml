@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="recipe_items">
+    <item>@string/beef</item>
+    <item>@string/veal</item>
+    <item>@string/lamb</item>
+    <item>@string/venison</item>
+    <item>@string/pork</item>
+    <item>@string/chicken</item>
+    <item>@string/duck</item>
+    <item>@string/fish</item>
+    <item>@string/hamburger</item>
+    <item>@string/timer</item>
+    <item>@string/temperature</item>
+</string-array>
+
+<string-array name="beef_degree_items">
+    <item>@string/Rare</item>
+    <item>@string/Medium_Rare</item>
+    <item>@string/Medium</item>
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+<string-array name="veal_degree_items">
+    <item>@string/Medium</item>
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+
+<string-array name="lamb_degree_items">
+    <item>@string/Medium_Rare</item>
+    <item>@string/Medium</item>
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+<string-array name="venison_degree_items">
+    <item>@string/Medium_Rare</item>
+    <item>@string/Medium</item>
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+<string-array name="pork_degree_items">
+    <item>@string/Medium</item>
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+
+<string-array name="chicken_degree_items">
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+<string-array name="duck_degree_items">
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+
+<string-array name="fish_degree_items">
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+
+<string-array name="hamburger_degree_items">
+    <item>@string/Medium_Done</item>
+    <item>@string/Well_Done</item>
+</string-array>
+
+<string-array name="alarm">
+    <item>@string/ring</item>
+    <item>@string/vibration</item>
+    <item>@string/ring_vibration</item>
+</string-array>
+    
+</resources>

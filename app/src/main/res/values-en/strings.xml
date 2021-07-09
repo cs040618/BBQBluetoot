@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temp Tracking</string>
+    <string name="setting">Setting</string>
+    <string name="recipe">Recipe</string>
+    <string name="all_probes">All Probes</string>
+    <string name="connect">Connection</string>
+    <string name="temperature">Temperature</string>
+    <string name="unit">Unit</string>
+    <string name="alarm_type">Alarm Type</string>
+    <string name="language">Language</string>
+    <string name="select">Select</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="cels_unit">℃</string>
+    <string name="disconnect_msg">Disconnect with %1$s?</string>
+    <string name="barbecue_type">%1$s %2$s</string>
+    <string name="barbecue_target_temperature">Target %1$s%2$s</string>
+    <string name="barbecue_temperature">Grill %1$s%2$s</string>
+    <string name="barbecue">Grill</string>
+    <string name="alarm_msg">Grill Done!</string>
+    <string name="dialog_title">Probe %1$s</string>
+    <string name="high_alarm_msg">Food Temperature Over 85℃\n Remove Food From Heat!</string>
+    <string name="grill_high_alarm_msg">Stove Temperature Over 275℃\nClose Heat Source!</string>
+    <string name="disconnect_alarm_msg">Bluetooth Disconnect\nMove the Phone Closer to Probe!</string>
+    <string name="single_barbecue_type">%1$s\n %2$s</string>
+    <string name="single_barbecue_target_temperature">Target\n%1$s%2$s</string>
+    <string name="single_barbecue_temperature">Grill\n%1$s%2$s</string>
+    <string name="timer">Timer</string>
+    <string name="left_time">Time Left</string>
+    <string name="current_temperature">Current Temperature</string>
+    <string name="cook_degree">Cook Degree</string>
+    <string name="min_centigrade_temperature">-40℃</string>
+    <string name="max_centigrade_temperature">200℃</string>
+    <string name="min_fahrenhite_temperature">-40℉</string>
+    <string name="max_fahrenhite_temperature">392℉</string>
+    <string name="hour">Hour</string>
+    <string name="back">Back</string>
+    <string name="Rare">Rare</string>
+    <string name="Medium_Rare">Medium Rare</string>
+    <string name="Medium">Medium</string>
+    <string name="Medium_Done">Medium Done</string>
+    <string name="Well_Done">Well Done</string>
+    <string name="cooking">Cooking</string>
+
+
+    <string name="ring">Ring</string>
+    <string name="vibration">Vibration</string>
+    <string name="ring_vibration">Ring &amp; Vibration</string>
+    <string name="beef">Beef</string>
+    <string name="veal">Veal</string>
+    <string name="lamb">Lamb</string>
+    <string name="venison">Venison</string>
+    <string name="pork">Pork</string>
+    <string name="chicken">Chicken</string>
+    <string name="duck">Duck</string>
+    <string name="fish">Fish</string>
+    <string name="hamburger">Hamburger</string>
+
+
+    <string name="no_short">N</string>
+    <string name="yes_short">Y</string>
+
+
+    <string name="english">English</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="chinese">簡體中文</string>
+    <string name="chinese_tw">繁體中文</string>
+    <string name="web">Go Web</string>
+    <string name="pid">MAC</string>
+    <string name="test_id">12345</string>
+    <string name="http_error">Internet Connection Error</string>
+
+</resources>

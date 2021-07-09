@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/recipe_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/camera_detail_titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            layout="@layout/title_bar_layout" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/status_tv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/RED" 
+                    android:textStyle="bold"
+                    android:textSize="@dimen/rare_word_size"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/key_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/rare_word_size"
+                        android:textColor="@color/rare_select_text_color" />
+
+                    <TextView
+                        android:id="@+id/value_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/rare_word_size"
+                        android:textColor="@color/rare_select_text_color"  />
+                </LinearLayout>
+            </LinearLayout>
+
+             <ImageView
+                android:id="@+id/setting"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentEnd="true"
+	            android:layout_centerInParent="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginEnd="20dip"
+	            android:layout_marginTop="20dip"
+	            android:src="@drawable/setting" />
+            
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/start_btn"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/left_time_word_size" />
+        </RelativeLayout>
+       
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dip"
+        android:background="@drawable/rare_bg"
+        android:orientation="vertical" >
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true">
+        </RadioGroup>
+     </RelativeLayout>
+
+</FrameLayout>

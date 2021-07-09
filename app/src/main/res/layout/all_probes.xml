@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/recipe_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/camera_detail_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        layout="@layout/title_bar_layout" />
+    
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="10dip"
+                android:src="@drawable/setting"
+                android:contentDescription="setting icon" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp">
+
+       <include
+           android:id="@+id/probes_one"
+           layout="@layout/probes_one"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="false"
+           android:layout_marginStart="40dp"/>
+
+       <include
+           android:id="@+id/probes_two"
+           layout="@layout/probes_two"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:layout_marginEnd="40dp"/>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp">
+
+       <include
+           android:id="@+id/probes_three"
+           layout="@layout/probes_three"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="false"
+           android:layout_marginStart="40dp" />
+       <include
+           android:id="@+id/probes_four"
+           layout="@layout/probes_four"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:layout_marginEnd="40dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

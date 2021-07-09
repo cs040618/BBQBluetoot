@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="transparent">#00000000</color>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="GREEN">#FF00FF00</color>
+  <color name="RED">#FFFF0000</color>
+  <color name="BLACK">#00000000</color>
+  <color name="WHITE">#FFFFFF</color>
+  <color name="PointerColor">#C9DEEE</color>
+  <color name="Yellow">#FFFFFF00</color>
+
+  <color name="series_not_end">#fffec500</color>
+  <color name="sienna">#ffa0522d</color>
+  <color name="silver">#ffc0c0c0</color>
+  <color name="skyblue">#ff87ceeb</color>
+  <color name="slateblue">#ff6a5acd</color>
+  <color name="slategray">#ff708090</color>
+
+
+  <color name="circle_bg">#000000</color>
+  <color name="circle_t">#FFE177</color>
+  <color name="circle_t2"> #A5D5C5</color>
+  <color name="title_bg"> #A5D5C5</color>
+  <color name="connect_bg">#A45555</color>
+  <color name="disconnect_bg">#B0B0B0</color>
+  <color name="disconnect_gray">#D6D6D6</color>
+  <color name="title_bar_text">#3D5744</color>
+  <color name="button_web_bg">#3D5744</color>
+  <color name="button_lang_text">#3D5744</color>
+  <color name="button_lang_bg">#67B29B</color>
+  <color name="button_lang_bg_active">#FFE177</color>
+
+
+  <color name="gray">#cccccc</color>
+  <color name="left_time_color">#ffde94</color>
+  <color name="left_time_text_color">#8e2800</color>
+  <color name="current_temperature_color">#FFE177</color>
+  <color name="ble_color">#B0B0B0</color>
+  <color name="connect_size_color">#FFE177</color>
+  <color name="disconnect_dialog_title_color">#3D5744</color>
+  <color name="barbecue_status_text_color">#000000</color>
+  <color name="rare_select_text_color">#ffde94</color>
+  <color name="rare_text_color">#ff941f</color>
+</resources>
